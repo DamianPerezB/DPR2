@@ -1,0 +1,64 @@
+Json de prueba
+
+Alumno
+
+{
+    "matricula": 2173940367,
+    "password": "123",
+    "nombre": "Juan",
+    "apellidop": "Pérez",
+    "apellidom": "Gómez",
+    "unidad": 4,
+    "división": "CNI",
+    "licenciatura": 131,
+    "estado": 1,
+    "correoinstitucional": "juan.perez.2@cua.uam.mx",
+    "observaciones": "Alumno de nuevo ingreso."
+}
+
+Empleado
+
+{
+    "noEconomico": 1001,
+    "password": "password123",
+    "nombre": "Carlos",
+    "apellidoPaterno": "Ramírez",
+    "apellidoMaterno": "López",
+    "correoInstitucional": "carlos.ramirez@cua.uam.mx",
+    "estado": 0,
+    "tipo": 0,
+    "permisos": 0
+}
+
+Prestamo
+
+{
+  "id": 1,
+  "idAlumno": 2173035222,
+  "idEmpleado": 25034,
+  "estadoPrestamo": 0,
+  "fechaPrestamo": "2025-03-25T10:00:00Z",
+  "fechaDevolucion": "2025-04-25T10:00:00Z",
+  "idMaterial": 36489503,
+  "cantidad": 1,
+  "uea": 4601011,
+  "grupo": "CD01C",
+  "observaciones": "El material tenía una ligera mancha",
+  "tipoPrestamo": 1
+}
+
+Material
+
+{
+    "id": "MAT-001",
+    "inventarioUAM": "INV-UAM-2025",
+    "inventarioCoordinacion": "INV-COORD-1001",
+    "marca": "HP",
+    "modelo": "EliteBook 850",
+    "numeroSerie": 1234567890123,
+    "estado": 1,
+    "nombreMaterial": "Laptop HP EliteBook",
+    "cantidad": 5,
+    "tipo": 0,
+    "descripcion": "Laptop de alto rendimiento para uso administrativo."
+}
